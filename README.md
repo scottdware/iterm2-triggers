@@ -20,7 +20,7 @@ Processes using between 10.00% and 59.99% CPU are highlighted in YELLOW
 
 Below the regexp to use in order to achieve that :  
 
-Sport 100% CPU : `\d{1,5} [a-z]+.*[MKG].*100.00% (?!idle).*` Highlight text in RED  
+Spot 100% CPU : `\d{1,5} [a-z]+.*[MKG].*100.00% (?!idle).*` Highlight text in RED  
 
 Spot 60.00%-99.99% CPU `\d{1,5} [a-z]+.*[MKG].*(6|7|8|9)\d\.\d\d\% (?!idle).*` Highlight text in ORANGE  
 
