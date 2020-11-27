@@ -8,7 +8,7 @@ You can import triggers from a file/profile but you can configure them on "Prefe
 The whole options are detailed in the [official documentation for triggers](https://iterm2.com/triggers.html).
 
 
-# Helpful regex triggers for iTerm2.
+# Helpful regex triggers for iTerm2
 
 ## Juniper Junos specific triggers
 
@@ -36,13 +36,14 @@ Spot 10.00%-59.99% CPU`\d{1,5} [a-z]+.*[MKG].*(1|2|3|4|5)\d\.\d\d\% (?!idle).*` 
 
 See triggers screenshot below :
 
-![show-system-processes-summary-triggers](screenshots/jonos/show-system-processes-summary-triggers.png)
+![show-system-processes-summary-triggers](screenshots/junos/show-system-processes-summary-triggers.png)
 
+
+---
 
 
 ## Arista EOS specific triggers
 There triggers may also works on Cisco IOSes with some minor tunning.
-
 ![triggers-for-EOS](screenshots/eos/triggers.png)
 
 
@@ -81,6 +82,7 @@ If you are using observium syntax...
 `\sCust:` Highlight text in blue.  
 `\sServer:` Highlight text in green.  
 
+
 ### logging
 Set colors on logs lines/patterns
 
@@ -94,3 +96,4 @@ Set colors on logs lines/patterns
 %PREFIXLIST-3-IMPORT_FAILED
 %OSPF[^:]*|%SYS-\d-\w+
 ```
+You get the idea :)
